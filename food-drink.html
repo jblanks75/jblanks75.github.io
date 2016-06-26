@@ -81,6 +81,24 @@
         width: 100%;
         padding: 0px;
     }
+    #container {
+           position: relative;
+       }
+
+       #container p {
+           position: absolute;
+           background: none;
+           font-family: sans-serif;
+           padding: 5px;
+
+       }
+
+       #container img {
+           position: absolute;
+           z-index: -2;
+           width:100%;
+           opacity: 0.5;
+       }
 </style>
 </head>
 <body>
@@ -96,10 +114,12 @@
         <li><a href="">OTHER CITIES</a></li>
     </ul>
     </div>
-    <div id="img_wrap">
-        <img src="http://res.cloudinary.com/sagacity/image/upload/c_crop,h_2921,w_3947,x_0,y_0/c_limit,w_1080/v1439318533/IMG_20150804_110452_textvi.jpg" id="bg" alt="Flight of Beer">
-        <h1 href="" id="title" style="">FOOD &amp; DRINK</h1>
-    </div>
-    <div>
-     <img id="footer" src="https://getawaysforgrownups.com/wp-content/uploads/2013/09/Beer-Flights-at-Tavern-45-2-Photo-Credit-Austin-Holt.jpg" alt="Hamburger">
-    </div>
+
+    <div id="container">
+       <p>Seattle has a time tested food scene that combines the cosmopolitan appeal of a large city with the green movement of the west coast. As a costal city with influences from Asia and Mexico, and a pension for fusion, the sky is the limit for what you can find here. The birth of the tech industry has drawn a large crowd of young entrepreneurs and ambitious chefs that have made a name for themselves with everything from foraged meals to down home comfort food.
+          <br><br>While the city of Seattle looks daunting on a map, it is actually more of a collection of small neighborhoods and sub-cities that have distinct personalities and local flavors. Each one will offer a taste of Seattle that you won't be able to find as well defined in any other part. So, whether you are jonesing for a cheap eat or a high class night out, there will not only be a restaurant for you but a whole district.
+          <br><br>For the purposes of this guide, we endeavored to find the perfect blend of establishments that represents Seattle in all of its glory. From Asian to Northwestern, cheap to elegant, and wild to down right zany, this is by no means a comprehensive list, but a great place to start for the first-time visitor and and a nice checklist for those of us who have made this coast our home.</p>
+
+
+       <img id="background_img" src="https://getawaysforgrownups.com/wp-content/uploads/2013/09/Beer-Flights-at-Tavern-45-2-Photo-Credit-Austin-Holt.jpg" alt="Beer Flight"/>
+   </div>
